@@ -1,0 +1,21 @@
+todos 
+
+1. build the projects✅
+    -createing the folder ✅
+    -adding files ✅
+
+
+2. Navbar ✅ 
+    -2 links and a name ✅ 
+
+3. Portfolio item grid 
+    - images 
+    - titles 
+    -descriptions ✅ 
+    -animations 
+    -javascript
+
+4. About page 
+    - image 
+    -split column layout 
+    -content

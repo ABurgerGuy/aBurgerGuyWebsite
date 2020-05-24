@@ -1,0 +1,179 @@
+
+/* master styles */
+.body{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* nav bar styles */
+
+.nav-bar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    height: 75%;
+
+}
+
+.left-side{
+    display: flex;
+    
+
+}
+
+.nav-bar > .left-side > div{
+    display: flex;
+    margin-right: 20px;
+    font-size: 2;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+    letter-spacing: 3px;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+}
+
+.right-side{
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+/* portfolio styles */
+
+.portfolio-items-wrapper{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.subtitle{
+    color: white;
+    animation: fadeIn 2s;
+}
+
+.logo-wrapper img{
+    width: 50%;
+    height: 75%;
+    animation: fadeIn 2s;
+}
+
+.portfolio-item-wrapper{
+    position: relative;
+}
+
+.portfolio-img-background{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeIn 2s;
+}
+
+.img-text-wrapper{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+    /* fade in function*/
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+/* about page */
+
+.content-wrapper-about{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+
+
+    
+
+}
+
+
+.left-text-content{
+    max-width: 50%;
+    font-size: 175%;
+    animation: fadeIn 2s;
+}
+
+.right-img-content img{
+    width: 75%;
+    float: right;
+    animation: fadeIn 2s;
+    
+}
+
+
+/* footer css */
+.bottom{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 5px;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: grey;
+    color: white;
+
+}
+
+.ul-footer-contacts{
+    
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 10%;
+
+}
+
+.socialmedia a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+    letter-spacing: 5px;
+}
+
+
+
+
+
