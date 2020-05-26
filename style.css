@@ -1,4 +1,9 @@
 
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
 /* master styles */
 .body{
     margin: 0px;
@@ -35,8 +40,12 @@
 
 .nav-link-wrapper{
     height: 22px;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid black;
     transition: border-bottom 0.5s;
+}
+
+.selected{
+    border-bottom: 1px solid transparent;
 }
 
 .nav-link-wrapper a {
@@ -46,9 +55,6 @@
     letter-spacing: 3px;
 }
 
-.nav-link-wrapper:hover {
-    border-bottom: 2px solid black;
-}
 
 .right-side{
     color: white;
@@ -132,12 +138,14 @@
     max-width: 50%;
     font-size: 175%;
     animation: fadeIn 2s;
+    padding-top: 2vh;
 }
 
 .right-img-content img{
     width: 75%;
     float: right;
     animation: fadeIn 2s;
+    padding-top: 2vh;
     
 }
 
@@ -145,7 +153,9 @@
 /* footer css */
 .bottom{
     display: flex;
-    
+    position: fixed;
+    bottom: 0;
+    width: 165vh;
     justify-content: space-between;
     align-items: center;
     letter-spacing: 5px;
@@ -171,6 +181,9 @@
     text-decoration: none;
     transition: color 0.5s;
     letter-spacing: 5px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+
 }
 
 
